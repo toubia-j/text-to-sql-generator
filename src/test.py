@@ -8,7 +8,7 @@ tokenizer = AutoTokenizer.from_pretrained(checkpoint_path)
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_path)
 
 # Example input question
-question = "How many customers have placed more than 5 orders?"
+question = "the name of hunters have killed equal 5 birds?"
 
 # Tokenize input
 inputs = tokenizer(
