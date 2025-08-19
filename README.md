@@ -1,4 +1,5 @@
 # Text-to-SQL Generator
+![Ask Question](images/image.png)
 
 ## Project Overview
 This project builds a model that converts natural language questions into SQL queries, enabling non-technical users to query databases easily. The model is fine-tuned on the Spider dataset, a large, complex, cross-domain text-to-SQL dataset.
@@ -22,6 +23,13 @@ For details on the datasets used in this project (including download links and p
 
 ## Tokenizer & Model
 For details on the tokenizer and model used in this project , see the [Tokenizer & Model README](models/README.md).
+
+## 🚀 Demo of the App  
+
+We provide a simple Streamlit frontend to interact with the Text-to-SQL model.  
+
+👉 For the full walkthrough with screenshots, see the [App Demo README](images/README.md).
+
 
 
 ## Docker Setup
