@@ -16,6 +16,9 @@ This project builds a model that converts natural language questions into SQL qu
 - `requirements.txt` — Python dependencies
 - `README.md` — Project documentation
 - `.github/` — GitHub issues, workflows, and project boards
+- 
+## Datasets
+For details on the datasets used in this project (including download links and preprocessing instructions), see the [Datasets README](data/README.md).
 
 ## Docker Setup
 
@@ -34,5 +37,5 @@ docker run -it --rm \
 ### 3. Open the Streamlit App
 Once the container is running, open your web browser and go to:
 ```bash
-[http://localhost:8501](http://localhost:8501)
+http://localhost:8501
 ```
