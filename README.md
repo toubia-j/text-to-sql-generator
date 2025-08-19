@@ -22,3 +22,17 @@ This project builds a model that converts natural language questions into SQL qu
 ### Build Docker Image
 ```bash
 docker build -t text-to-sql .
+```
+### Run the container
+```bash
+docker run -it --rm \
+    -p 8501:8501 \
+    -v ${PWD}:/app \
+    text-to-sql \
+    streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+```
+### 3. Open the Streamlit App
+Once the container is running, open your web browser and go to:
+```bash
+[http://localhost:8501](http://localhost:8501)
+```
